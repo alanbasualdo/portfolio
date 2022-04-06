@@ -1,0 +1,42 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDiv {
+    margin-top: 1.5em 0 1.5em 0;
+}
+
+.h1-contact {
+    background-color: #333;
+    margin: 0 auto 2em auto;
+    color: #ddd;
+    width: 10em;
+    box-shadow: 0.2em 0.2em 0.3em #333;
+}
+
+.form-btn {
+    margin-top: 3em;
+    box-shadow: 0.2em 0.2em 0.3em #333;
+    background-color: #333;
+    color: #ddd;
+    border: none;
+    border-radius: 0;
+    padding: 7.5px 15px;
+}
+
+.form-btn:hover {
+    background-color: #191919;
+    transition: 0.2s;
+}
+
+.form-btn:active {
+    background-color: #333;
+}
+
+.form {
+    width: auto;
+    margin: 0 2em 0 2em;
+}

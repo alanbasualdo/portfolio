@@ -1,0 +1,105 @@
+.topnav {
+    background-color: rgba(51, 51, 51, 0.97);
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    z-index: 100;
+}
+
+.divA {
+    margin: 0 2em;
+}
+
+.topnav a {
+    display: inline-block;
+    color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 0.2s;
+}
+
+.topnav a:active {
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #191919;
+    transition: 0.2s;
+}
+
+.topnav .openNav {
+    display: none;
+}
+
+.topnav .navButtons {
+    display: none;
+}
+
+@media screen and (max-width: 692px) {
+
+    .topnav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        border-bottom: 1px solid #191919;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav .navButtons {
+        display: flex;
+        height: 40px;
+    }
+    
+    .topnav .langNav {
+        width: 50%;
+        border: none;
+        background-color: transparent;
+        color: #ddd;
+    }
+    
+    .topnav .langNav:hover {
+        transition: 0.2s;
+        background-color: #191919;
+    }
+
+    .topnav .openNav {
+        display: block;
+        width: 50%;
+        border: none;
+        background-color: transparent;
+        color: #ddd;
+    }
+
+    .topnav .openNav:hover {
+        transition: 0.2s;
+        background-color: #191919;
+    }
+
+    .topnav.responsive {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #191919;
+    }
+
+    .topnav.responsive .openNav {
+        float: right;
+        position: block;
+    }
+
+    .topnav.responsive a {
+        display: block;
+        text-align: center;
+        height: 100%;
+    }
+
+    .divA {
+        margin: 0 0;
+    }
+}

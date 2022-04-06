@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "IBM Plex Mono", monospace;
+    background: linear-gradient(#9198e5, #e66465);
+}
+
+.main {
+    text-align: center;
+}
+
+.up {
+    position: sticky;
+    bottom: 40px;
+    float: right;
+    margin-right: 25px;
+}
+
+.up a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.25em #333;
+}
+
+.up a:hover {
+    color: #191919;
+    transition: 0.2s;
+}
+
+.up a:active {
+    color: #333;
+    transform: translateY(5px);
+}
+
+.langBtn {
+    display: block;
+    border: none;
+    position: fixed;
+    z-index: 2;
+    bottom: 25px;
+    margin-left: 25px;
+    box-shadow: 0.2em 0.2em 0.3em #333;
+    background-color: #333;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.langBtn:hover {
+    transition: 0.2s;
+    background-color: #191919;
+}
+
+@media screen and (max-width: 692px) {
+    .up, .langBtn {
+        display: none;
+    }
+}

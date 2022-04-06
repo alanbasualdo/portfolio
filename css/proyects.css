@@ -1,0 +1,64 @@
+.proyects {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.proyectsDiv {
+    margin-top: 1.5em 0 1.5em 0;
+}
+
+.proyects-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+}
+
+.proyect {
+    margin: 0 2em;
+    width: 500px;
+    box-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.div-proyects-title {
+    margin-bottom: 4em;
+}
+
+.div-proyects-title h1 {
+    background-color: #333;
+    color: #ddd;
+    width: 10em;
+    margin: 0 auto 0.5em auto;
+    box-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.div-proyects-title p {
+    background-color: #333;
+    color: #ddd;
+    width: 15em;
+    margin: 0 auto 1em auto;
+    box-shadow: 0.1em 0.1em 0.2em #333;
+}
+
+.div-a-proyects {
+    width: 10em;
+    background-color: #333;
+    box-shadow: 0.1em 0.1em 0.2em #333;
+    margin: 0 auto 0 auto;
+}
+
+.div-a-proyects:hover {
+    transition: 0.2s;
+    background-color: #191919;
+}
+
+.div-proyects-title a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.div-proyects-title a:hover {
+    transition: 0.2s;
+    background-color: #191919;
+}
